@@ -17,5 +17,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: $main-background-color;
+}
+
+@media (min-width: 1024px) {
+    .main {
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
 }
