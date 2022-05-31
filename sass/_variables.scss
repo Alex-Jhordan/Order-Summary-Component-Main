@@ -1,0 +1,23 @@
+/*Layout*/
+/*The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px*/
+
+
+/*Colors*/
+/*Background colors*/
+$main-background-color: hsl(225, 100%, 94%); //Pale blue
+$component-background-color : hsl(225, 100%, 98%); //Very pale blue
+$details-background-color: hsla(225, 100%, 94%, 0.4); //Pale blue
+$button-background-color : hsl(245, 75%, 52%); //Bright blue
+
+/*Text colors*/
+$primary-text-color : hsl(224, 23%, 55%); //Desaturated blue
+$secondary-text-color : hsl(223, 47%, 23%); //Dark blue
+
+
+/*Font*/
+/*Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');

@@ -1,0 +1,112 @@
+.component__information,
+.component__texts,
+.component__details-text,
+.component__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.component {
+    width: 90%;
+    max-width: 370px;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 20px 40px #b1bde2;
+    
+    &__image {
+        width: 100%;
+        display: block;
+    }
+
+    &__information {
+        background-color: $component-background-color;
+        padding: 1.8rem 1.5rem;
+        gap: 1.5rem;
+    }
+
+    &__texts {
+        gap: 1rem;
+    }
+
+    &__title {
+        text-align: center;
+        color: $secondary-text-color;
+        font-size: 1.45rem;
+        font-weight: 900;
+    }
+
+    &__text {
+        text-align: center;
+        color: $primary-text-color;
+        padding: 0 .5rem;
+    }
+
+    &__details {
+        display: flex;
+        align-items: center;
+        background-color: $details-background-color;
+        border-radius: .5rem;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    &__details-text {
+        flex: 1;
+    }
+
+    &__plan {
+        color: $secondary-text-color;
+        font-weight: 900;
+    }
+
+    &__price {
+        color: $primary-text-color;
+    }
+
+    &__change-link {
+        color: $button-background-color;
+        font-weight: 900;
+        font-size: .9rem;
+        transition: color 500ms;
+
+        &:hover {
+            color: #7a6cf7;
+        }
+    }
+
+    &__links {
+        gap: 1rem;
+    }
+
+    &__payment-link {
+        background-color: $button-background-color;
+        color: $component-background-color;
+        text-align: center;
+        text-decoration: none;
+        padding: .8rem;
+        border-radius: .5rem;
+        box-shadow: 0 5px 20px #9f96fd;
+        transition: background-color 500ms;
+
+        &:hover {
+            background-color: #7a6cf7;
+        }
+    }
+
+    &__cancel-link {
+        color: $primary-text-color;
+        text-align: center;
+        font-weight: 900;
+        text-decoration: none;
+        transition: color 500ms;
+
+        &:hover {
+            color: $secondary-text-color;
+        }
+    }
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+}

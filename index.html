@@ -8,53 +8,57 @@
   
   <title>Frontend Mentor | Order summary card</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 
-  <link rel="stylesheet" href="css/estilos.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 
 </head>
+
 <body>
 
-  <section class="main">
+  <main class="main">
+    <div class="component">
+    
+      <img class="component__image" src="images/illustration-hero.svg" alt="illustration hero">
+    
+      <div class="component__information">
 
-    <section class="section1">
-      <div><img class="img-principal" src="images/illustration-hero.svg" alt="illustration-hero.svg"></div>
-    </section>
+        <div class="component__texts">
+          <h1 class="component__title">Order Summary</h1>
+          <p class="component__text">You can now listen to millions of songs, audiobooks, and podcacsts on any device anywhere you like!</p>
+        </div>
+  
+        <div class="component__details">
+  
+          <img class="component__icon" src="images/icon-music.svg" alt="icon music">
+          
+          <div class="component__details-text">
+            <span class="component__plan">Annual Plan</span>
+            <span class="component__price">$59.99/year</span>
+          </div>
+  
+          <a class="component__change-link" href="#">Change</a>
+  
+        </div>
+  
+        <div class="component__links">
+          <a class="component__payment-link" href="">Proceed to Payment</a>
+          <a class="component__cancel-link" href="">Cancel Order</a>
+        </div>
 
-    <section class="section2">
+      </div>
 
-      <section class="textos">
-        <h2 class="titulos titulo1">Order Summary</h2>
-        <p class="texto-secundario1">You can now listen to millions of songs, audiobooks, and podcacsts on any device anywhere you like!</p>
-      </section>
+    </div>
 
-      <section class="informacion">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Alex Huanachin</a>.
+    </div>
 
-        <section class="icon-music">
-          <div><img src="images/icon-music.svg" alt="icon-music.svg"></div>
-        </section>
-
-        <section class="info-plan">
-          <h3 class="titulos titulo2">Annual Plan</h3>
-          <p class="texto-secundario2">$59.99/year</p>
-        </section>
-
-        <section class="accion">
-          <a class="change" href="#">Change</a>
-        </section>
-
-      </section>
-
-      <section class="acciones">
-        <a class="pagar" href="#">Proceed to Payment</a>
-        <a class="cancelar" href="#">Cancel Order</a>
-      </section>
-
-    </section>
-
-  </section>
+  </main>
 
 </body>
 </html>
