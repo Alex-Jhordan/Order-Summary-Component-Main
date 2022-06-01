@@ -135,8 +135,14 @@
 }
 
 .attribution {
+  font-size: 11px;
+  color: #1f2f56;
   position: fixed;
   bottom: 10px;
+}
+
+.attribution__link {
+  color: #7280a7;
 }
 
 * {
